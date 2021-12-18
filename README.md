@@ -89,9 +89,29 @@ TX power control tested with SoftAP mode and OpenWrt firmware (OpenWrt 21.02.0 r
   * hcxdumptool 6.1.6
   * wpa_supplicant v2.10-devel-hostap_2_9-2374-g9ef8491d9
 
+- Kali Linux 2020.3 (kernel 5.9)
+  * Aircrack-ng 1.6
+  * hcxdumptool 6.1.4
+  * wpa_supplicant v2.10-devel-hostap_2_9-2379-g4775a5f82
+
+- Linux Mint 20.2 MATE (kernel 5.4)
+  * wpa_supplicant v2.10-devel-hostap_2_9-2486-gbb6fa62b3
+  * hostapd v2.10-devel-hostap_2_9-2486-gbb6fa62b3
+  * hcxdumptool 6.1.6
+  * Aircrack-ng 1.6
+
+- Kali Linux 2019.1a (kernel 4.19)
+  * Aircrack-ng 1.5.2
+  * hcxdumptool 5.1.7
+  * wpa_supplicant v2.10-devel-hostap_2_9-2433-g8d881d942
+
 - Ubuntu 13.04 (kernel 3.8)
   * Aircrack-ng 1.5.2
   * hcxdumptool 5.1.4
+
+- Ubuntu 12.10 (kernel 3.5)
+  * Aircrack-ng 1.5.2
+  * hcxdumptool 4.2.1
 
 - Ubuntu 12.04 (kernel 3.4)
   * Aircrack-ng 1.5.2
@@ -348,6 +368,8 @@ sudo hostapd -i <interface> hostapd.conf
 ## Test devices
 
 - TP-Link Archer T3U V1
+
+- TP-Link Archer T4U V3
 
 - Linksys WRT1200AC V2
   * OpenWrt 21.02.0 r16279-5cc0535800 / LuCI openwrt-21.02 branch git-21.231.26241-422c175
