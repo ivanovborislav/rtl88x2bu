@@ -5,7 +5,7 @@
 ## Realtek RTL88x2BU Wireless Lan Driver for Linux
 
 - v5.13.1 (20210702)
-- Based on EW-7822UTC Linux Driver (Version : 1.0.2.2) 2021-10-26
+- Based on EDIMAX EW-7822UTC Linux Driver (Version : 1.0.2.2) 2021-10-26
 - Support Kernel: 3.8 - 5.11 (Realtek)
 - Support up to Kernel 5.15
 
@@ -94,6 +94,7 @@ TX power control tested with SoftAP mode and OpenWrt firmware (OpenWrt 21.02.0 r
   * Aircrack-ng 1.6
   * hcxdumptool 6.1.4
   * wpa_supplicant v2.10-devel-hostap_2_9-2379-g4775a5f82
+  * hostapd v2.10-devel-hostap_2_9-2379-g4775a5f82
 
 - Linux Mint 20.2 MATE (kernel 5.4)
   * wpa_supplicant v2.10-devel-hostap_2_9-2486-gbb6fa62b3
