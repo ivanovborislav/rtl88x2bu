@@ -18,6 +18,7 @@
   * monitor
   * P2P-client
   * P2P-GO
+  * [Concurrent mode plus virtual interface control](https://github.com/ivanovborislav/document/blob/main/rtl88x2bu_concurrent_mode.md)
 - Packet injection
 - TX power control
 - LED control
