@@ -7,7 +7,7 @@
 - v5.13.1 (20210702)
 - Based on EDIMAX EW-7822UTC Linux Driver (Version : 1.0.2.2) 2021-10-26
 - Support Kernel: 3.8 - 5.11 (Realtek)
-- Support up to Kernel 5.15
+- Support up to Kernel 5.16
 
 ## Specification
 
@@ -67,6 +67,12 @@ Connecting to AP with WPA3 (WPA3-SAE) authentication method (IMPORTANT: Network 
 Start WPA3 (WPA3-SAE) SoftAP.
 
 TX power control tested with SoftAP mode and OpenWrt firmware (OpenWrt 21.02.0 r16279-5cc0535800, Channel Analysis Feature).
+
+- Ubuntu 21.10 (kernel 5.16)
+  * hcxdumptool 6.2.4
+  * Aircrack-ng 1.6
+  * hostapd v2.10-devel-hostap_2_9-2398-g8a54c252a
+  * wpa_supplicant v2.10-devel-hostap_2_9-2398-g8a54c252a
 
 - Ubuntu 21.10 (kernel 5.15)
   * wpa_supplicant v2.10-devel-hostap_2_9-2398-g8a54c252a
