@@ -289,6 +289,7 @@ Driver wireless mode control, rtw_wireless_mode=
 8: 2.4Hz 802.11n
 11: 2.4GHz 802.11b/g/n
 16: 5GHz 802.11n
+20: 5GHz 802.11a/n
 64: 5GHz 802.11ac
 84: 5GHz 802.11a/n/ac
 95: 2.4GHz 802.11b/g/n 5GHz 802.11a/n/ac (default)
