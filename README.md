@@ -26,6 +26,7 @@
 - Driver debug log level control
 - DFS channels control
 - VHT control
+- Wireless mode control
 - Security:
   * WEP 64/128-bit, WPA, WPA2, and WPA3
 
@@ -277,6 +278,20 @@ Driver VHT control, rtw_vht_enable=
 0:disable
 1:enable (default)
 2:force auto enable
+```
+
+Driver wireless mode control, rtw_wireless_mode=
+```
+1: 2.4GHz 802.11b
+2: 2.4GHz 802.11g
+3: 2.4GHz 802.11b/g
+4: 5GHz 802.11a
+8: 2.4Hz 802.11n
+11: 2.4GHz 802.11b/g/n
+16: 5GHz 802.11n
+64: 5GHz 802.11ac
+84: 5GHz 802.11a/n/ac
+95: 2.4GHz 802.11b/g/n 5GHz 802.11a/n/ac (default)
 ```
 
 ### Connecting with wpa_supplicant
