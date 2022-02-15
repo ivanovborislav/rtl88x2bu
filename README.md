@@ -27,6 +27,7 @@
 - DFS channels control
 - VHT control
 - Wireless mode control
+- REGD source selection
 - Security:
   * WEP 64/128-bit, WPA, WPA2, and WPA3
 
@@ -293,6 +294,12 @@ Driver wireless mode control, rtw_wireless_mode=
 64: 5GHz 802.11ac
 84: 5GHz 802.11a/n/ac
 95: 2.4GHz 802.11b/g/n 5GHz 802.11a/n/ac (default)
+```
+
+Driver REGD source selection, rtw_regd_src=
+```
+0:Realtek defined
+1:OS (default, get channel plan from OS)
 ```
 
 ### Connecting with wpa_supplicant
