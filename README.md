@@ -47,6 +47,7 @@ Kernel 5.17-rc5 support
 - Edimax EW-7822ULC
 - Edimax EW-7822UNC
 - Edimax EW-7822UTC
+- Edimax EW-7822UAD
 - Hawking HW12ACU
 - Linksys WUSB6400M
 - Netgear A6150
