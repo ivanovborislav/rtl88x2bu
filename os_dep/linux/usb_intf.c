@@ -245,6 +245,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE_AND_INTERFACE_INFO(0x13b1, 0x0043, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* Alpha - Alpha*/
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_EDOMAX, 0xB822, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* Edimax */
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_EDOMAX, 0xC822, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* Edimax */
+	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_EDOMAX, 0xf822, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* Edimax - Edimax*/
 	{USB_DEVICE_AND_INTERFACE_INFO(0x2357, 0x012D, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* TP-Link_T3Uv1 */
 	{USB_DEVICE_AND_INTERFACE_INFO(0x2357, 0x0138, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* TP-Link_T3Uplusv1 */
 	{USB_DEVICE_AND_INTERFACE_INFO(0x2357, 0x0115, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* TP-Link_T4Uv3 */
