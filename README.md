@@ -9,7 +9,7 @@
 - Support Kernel: 3.8 - 5.11 (Realtek)
 - Support up to Kernel 5.16
 
-Kernel 5.17-rc5 support
+Kernel 5.17-rc6 support
 
 `wget https://raw.githubusercontent.com/ivanovborislav/document/main/patch/rtl88x2BU_v5.13.1_kernel_5.17-rc5_support.patch`
 
@@ -77,66 +77,132 @@ Start WPA3 (WPA3-SAE) SoftAP.
 
 TX power control tested with SoftAP mode and OpenWrt firmware (OpenWrt 21.02.0 r16279-5cc0535800, Channel Analysis Feature).
 
-- Ubuntu 21.10 (kernel 5.16)
+- Ubuntu 21.10 (kernel 5.17-rc6)
+  * hcxdumptool 6.2.4
+  * Aircrack-ng 1.6
+  * wpa_supplicant v2.11-devel-hostap_2_10-101-g203a027b2
+  * hostapd v2.11-devel-hostap_2_10-101-g203a027b2
+
+<details>
+  <summary>
+    Ubuntu 21.10 (kernel 5.16)
+  </summary>
+  
   * hcxdumptool 6.2.4
   * Aircrack-ng 1.6
   * hostapd v2.10-devel-hostap_2_9-2398-g8a54c252a
   * wpa_supplicant v2.10-devel-hostap_2_9-2398-g8a54c252a
+</details>
 
-- Ubuntu 21.10 (kernel 5.15)
+<details>
+  <summary>
+    Ubuntu 21.10 (kernel 5.15)
+  </summary>
+  
   * wpa_supplicant v2.10-devel-hostap_2_9-2398-g8a54c252a
   * hostapd v2.10-devel-hostap_2_9-2398-g8a54c252a
   * Aircrack-ng 1.6
   * hcxdumptool 6.2.4
+</details>
 
-- Kali Linux 2021.3a (kernel 5.14)
+<details>
+  <summary>
+    Kali Linux 2021.3a (kernel 5.14)
+  </summary>
+  
   * Aircrack-ng 1.6
   * hcxdumptool 5.2.2
   * wpa_supplicant v2.10-devel-hostap_2_9-2433-g8d881d942
+</details>
 
-- Ubuntu 21.10 (kernel 5.13)
+<details>
+  <summary>
+    Ubuntu 21.10 (kernel 5.13)
+  </summary>
+  
   * Aircrack-ng 1.6
   * hcxdumptool 6.2.0
   * hostapd v2.10-devel-hostap_2_9-2398-g8a54c252a
   * wpa_supplicant v2.10-devel-hostap_2_9-2398-g8a54c252a
+</details>
 
-- Ubuntu 21.04 (kernel 5.11)
+<details>
+  <summary>
+    Ubuntu 21.04 (kernel 5.11)
+  </summary>
+  
   * Aircrack-ng 1.6
   * hcxdumptool 6.1.6
   * wpa_supplicant v2.10-devel-hostap_2_9-2374-g9ef8491d9
+</details>
 
-- Kali Linux 2020.3 (kernel 5.9)
+<details>
+  <summary>
+    Kali Linux 2020.3 (kernel 5.9)
+  </summary>
+  
   * Aircrack-ng 1.6
   * hcxdumptool 6.1.4
   * wpa_supplicant v2.10-devel-hostap_2_9-2379-g4775a5f82
   * hostapd v2.10-devel-hostap_2_9-2379-g4775a5f82
+</details>
 
-- Linux Mint 20.2 MATE (kernel 5.4)
+<details>
+  <summary>
+    Linux Mint 20.2 MATE (kernel 5.4)
+  </summary>
+  
   * wpa_supplicant v2.10-devel-hostap_2_9-2486-gbb6fa62b3
   * hostapd v2.10-devel-hostap_2_9-2486-gbb6fa62b3
   * hcxdumptool 6.1.6
   * Aircrack-ng 1.6
+</details>
 
-- Kali Linux 2019.1a (kernel 4.19)
+<details>
+  <summary>
+    Kali Linux 2019.1a (kernel 4.19)
+  </summary>
+  
   * Aircrack-ng 1.5.2
   * hcxdumptool 5.1.7
   * wpa_supplicant v2.10-devel-hostap_2_9-2433-g8d881d942
+</details>
 
-- Ubuntu 13.04 (kernel 3.8)
+<details>
+  <summary>
+    Ubuntu 13.04 (kernel 3.8)
+  </summary>
+  
   * Aircrack-ng 1.5.2
   * hcxdumptool 5.1.4
+</details>
 
-- Ubuntu 12.10 (kernel 3.5)
+<details>
+  <summary>
+    Ubuntu 12.10 (kernel 3.5)
+  </summary>
+  
   * Aircrack-ng 1.5.2
   * hcxdumptool 4.2.1
+</details>
 
-- Ubuntu 12.04 (kernel 3.4)
+<details>
+  <summary>
+    Ubuntu 12.04 (kernel 3.4)
+  </summary>
+  
   * Aircrack-ng 1.5.2
   * hcxdumptool 4.2.1
+</details>
 
-- Ubuntu 11.10 (kernel 3.0)
+<details>
+  <summary>
+    Ubuntu 11.10 (kernel 3.0)
+  </summary>
+  
   * Aircrack-ng 1.5.2
   * hcxdumptool 4.2.1
+</details>
 
 ## HOW TO
 
