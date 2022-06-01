@@ -73,11 +73,22 @@ Start WPA3 (WPA3-SAE) SoftAP.
 
 TX power control tested with SoftAP mode and OpenWrt firmware (OpenWrt 21.02.0 r16279-5cc0535800, Channel Analysis Feature).
 
-- Ubuntu 21.10 (kernel 5.17)
+- Ubuntu 22.04 (kernel 5.18)
+  * wpa_supplicant v2.11-devel-hostap_2_10-309-gc3d389b72
+  * hostapd v2.11-devel-hostap_2_10-309-gc3d389b72
+  * Aircrack-ng 1.6
+  * hcxdumptool 6.2.6
+
+<details>
+  <summary>
+    Ubuntu 21.10 (kernel 5.17)
+  </summary>
+  
   * hostapd v2.11-devel-hostap_2_10-151-g3085e1a67
   * Aircrack-ng 1.6
   * hcxdumptool 6.2.4
   * wpa_supplicant v2.11-devel-hostap_2_10-151-g3085e1a67
+</details>
 
 <details>
   <summary>
