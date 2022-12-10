@@ -9,6 +9,16 @@
 - Support Kernel: 3.8 - 5.11 (Realtek)
 - Support up to Kernel 6.0.0
 
+Kernel 6.1 rc5 support
+```
+cd rtl88x2bu
+wget https://raw.githubusercontent.com/ivanovborislav/document/main/patch/rtl88x2BU_v5.13.1_k-6.1-rc5.patch
+patch -p1 < rtl88x2BU_v5.13.1_k-6.1-rc5.patch
+make clean
+make
+sudo make install
+```
+
 ## Specification
 
 - Supported interface modes:
