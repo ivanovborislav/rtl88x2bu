@@ -1,6 +1,6 @@
 #!/bin/bash
 # Simple install script for 88x2bu
-# December, 25 2022 v0.0.2 borislavIvanov
+# December, 25 2022 v0.0.3 borislavIvanov
 
 MODNAME="88x2bu"
 DRVNAME="rtl88x2bu"
