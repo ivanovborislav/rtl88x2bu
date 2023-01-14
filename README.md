@@ -278,6 +278,12 @@ chmod +x install.sh
 ./install.sh -i
 ```
 
+IMPORTANT: Prevent loading old driver rtw88 8822bu.
+
+```
+echo "blacklist rtw88_8822bu" > /etc/modprobe.d/rtw8822bu.conf
+```
+
 Raspberry Pi:
 
 Edit `Makefile`:
