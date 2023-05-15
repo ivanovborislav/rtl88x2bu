@@ -7,17 +7,7 @@
 - v5.13.1 (20210702)
 - Based on EDIMAX EW-7822UTC Linux Driver (Version : 1.0.2.2) 2021-10-26
 - Support Kernel: 3.8 - 5.11 (Realtek)
-- Support up to Kernel 6.2
-
-Kernel v6.3rc2 support
-```
-git clone https://github.com/ivanovborislav/rtl88x2bu.git
-cd rtl88x2bu
-wget https://raw.githubusercontent.com/ivanovborislav/document/main/patch/20230314-k-v6.3-rc2.patch
-patch -p1 < 20230314-k-v6.3-rc2.patch
-make
-sudo make install
-```
+- Support up to Kernel 6.3
 
 ## Specification
 
